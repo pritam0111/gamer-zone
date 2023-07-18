@@ -1,0 +1,34 @@
+.header {
+    width: 1920px;
+    height: 130px;
+    flex-shrink: 0;
+}
+
+.nav-one {
+    display: flex;
+    width: 86.041px;
+    height: 40px;
+    margin-top: 40px;
+
+}
+
+.gamer {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #0B0223;
+    font-family: Work Sans;
+    
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-left: 20px;
+   
+}
+.image-one{
+    margin-left: 10px;
+    margin-top: 10px;
+}
