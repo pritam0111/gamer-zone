@@ -68,8 +68,7 @@ nav li {
 
 .goat {
     display: flex;
-
-
+    
 }
 
 .play {
@@ -164,6 +163,7 @@ nav li {
 
 .games {
     width: 1920px;
+    
 
 }
 
@@ -208,10 +208,11 @@ nav li {
 
 
 .footer {
-    width: 1450px;
+    width: 1400px;
     height: 636px;
     background-color: #0B0223;
     padding: 50px;
+    
 
 
 }
@@ -275,9 +276,9 @@ nav li {
 
 @media screen and (max-width:425px) {
 
-    .conatiner,
+    .container,
     .goat,
-    .game-di {
+    .game-di ,.f{
         flex-direction: column;
 
     }
@@ -289,5 +290,8 @@ nav li {
     .header-games {
         text-align: center;
     }
-
+    .footer{
+        width:400px;
+    }
+    
 }
