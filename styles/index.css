@@ -210,8 +210,8 @@ nav li {
 .footer {
     width: 1450px;
     height: 636px;
-    flex-shrink: 0;
     background-color: #0B0223;
+    padding: 50px;
 
 
 }
@@ -221,7 +221,7 @@ nav li {
     border: 10px;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    
 
 }
 
@@ -234,11 +234,11 @@ nav li {
 }
 
 .nav-feature {
-    display: inline-flex;
+    display: flex;
     padding: 50px;
-    align-items: flex-start;
-    color: #FFFFFF;
-
+    align-items:center;
+    color: #FFFFFF;margin-left: 450px;
+   
 
 
 }
@@ -251,6 +251,8 @@ nav li {
 .foot-terms {
     display: inline-flex;
     padding: 50px;
+    color: #FFFFFF;
+    margin-left: 450px;
 }
 
 .final {
@@ -264,6 +266,9 @@ nav li {
 }
 
 
+.icon-one{
+   color: #FFFFFF;
+}
 
 
 
