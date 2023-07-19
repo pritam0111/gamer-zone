@@ -68,7 +68,7 @@ nav li {
 
 .goat {
     display: flex;
-    
+
 }
 
 .play {
@@ -163,7 +163,7 @@ nav li {
 
 .games {
     width: 1920px;
-    
+
 
 }
 
@@ -212,7 +212,7 @@ nav li {
     height: 636px;
     background-color: #0B0223;
     padding: 50px;
-    
+
 
 
 }
@@ -222,7 +222,7 @@ nav li {
     border: 10px;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
@@ -237,9 +237,10 @@ nav li {
 .nav-feature {
     display: flex;
     padding: 50px;
-    align-items:center;
-    color: #FFFFFF;margin-left: 450px;
-   
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 450px;
+
 
 
 }
@@ -267,18 +268,51 @@ nav li {
 }
 
 
-.icon-one{
-   color: #FFFFFF;
+.icon-one {
+    color: #FFFFFF;
 }
 
 
+
+
+
+.hover-one {
+    display: flex;
+}
+
+.hover-two {
+    display: flex;
+}
+
+.hover {
+    display: flex;
+    margin-top: 100px;
+}
+
+.hover-three {
+    display: flex;
+}
+
+.hover-four {
+    display: flex;
+}
+
+.hover-five {
+    display: flex;
+    width: 1450px;
+    align-items: center;
+    
+    flex-shrink: 0;
+    
+}
 
 
 @media screen and (max-width:425px) {
 
     .container,
     .goat,
-    .game-di ,.f{
+    .game-di,
+    .f {
         flex-direction: column;
 
     }
@@ -290,8 +324,9 @@ nav li {
     .header-games {
         text-align: center;
     }
-    .footer{
-        width:400px;
+
+    .footer {
+        width: 400px;
     }
-    
+
 }
