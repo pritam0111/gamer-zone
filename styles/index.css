@@ -211,7 +211,7 @@ nav li {
 
 .footer {
     width: 1400px;
-    height: 636px;
+    height: 500px;
     background-color: #0B0223;
     padding: 50px;
 
@@ -241,7 +241,8 @@ nav li {
     padding: 50px;
     align-items: center;
     color: #FFFFFF;
-    margin-left: 450px;
+    
+    justify-content: center;
 
 
 
@@ -253,10 +254,11 @@ nav li {
 
 
 .foot-terms {
-    display: inline-flex;
+    display: flex;
     padding: 50px;
     color: #FFFFFF;
-    margin-left: 450px;
+    justify-content: center;
+    align-items: center;
 }
 
 .final {
@@ -274,6 +276,12 @@ nav li {
     color: #FFFFFF;
 }
 
+.icon{
+    color:#FFF;
+   margin-left: 650px;
+   
+    
+}
 
 
 
