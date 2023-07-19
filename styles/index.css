@@ -287,6 +287,8 @@ nav li {
 .hover {
     display: flex;
     margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 100px;
 }
 
 .hover-three {
@@ -301,10 +303,77 @@ nav li {
     display: flex;
     width: 1450px;
     align-items: center;
-    
+
     flex-shrink: 0;
-    
+
 }
+
+.hover-over {
+    display: flex;
+    margin-left: 400px;
+}
+
+.big-hover {
+    width: 1450px;
+}
+
+.last-one {
+    padding: 10px;
+    display: flex;
+    margin-right: 20px;
+    row-gap: 30px;
+}
+
+
+
+
+.king {
+    display: flex;
+    width: 1920px;
+    background-color: #FFF;
+    ;
+}
+
+.king-head {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+#play {
+    color: #F948B2;
+}
+
+.king-para {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.king-image {
+    margin-left: 100px;
+    width: 634.833px;
+    height: 650px;
+    flex-shrink: 0;
+    padding: 8px;
+}
+
+#king-image-two {
+    position: relative;
+    bottom: 200px;
+    width: 318.5px;
+    height: 365.083px;
+    flex-shrink: 0;
+}
+
+
+
 
 
 @media screen and (max-width:425px) {
@@ -326,7 +395,7 @@ nav li {
     }
 
     .footer {
-        width: 400px;
+        padding: 5px 5px;
     }
 
 }
