@@ -78,7 +78,7 @@ nav li {
 
 .play-two {
     width: 1920px;
-    height: 5927px;
+    
 }
 
 .play-one {
@@ -155,12 +155,63 @@ nav li {
     gap: 10px;
     border-radius: 48px;
     background: #4EC5F7;
+
+}
+
+
+
+.games {
+    width: 1920px;
     
 }
 
+.header-games {
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-right: 500px;
+}
+
+.game-para {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-right: 500px;
+    
+}
+.game-di{
+    display: flex;
+    gap: 10px;
+}
+
+.only-videos{
+    color: #8758F1;
+}
+
+
+
+
 @media screen and (max-width:425px) {
-    .conatiner {
+
+    .conatiner,
+    .goat, .game-di {
         flex-direction: column;
 
     }
+    .game-di{
+      margin-left: 270px;
+    }
+    .header-games{
+        text-align: center;
+    }
+
 }
